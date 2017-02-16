@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mine_bg"
+    android:orientation="vertical"
+    tools:context="com.neckguardian.activity.Mine_Settings.PriActivity">
+
+    <include layout="@layout/title_bar_back" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/separation" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="29dp"
+        android:orientation="vertical">
+
+
+        <me.xiaopan.switchbutton.SwitchButton
+            android:id="@+id/to_cloud"
+            style="@style/item"
+            android:text="@string/to_cloud"
+            android:textColor="@color/text_color_black"
+            android:textSize="19sp"
+            app:frameDrawable="@mipmap/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@mipmap/switch_state_mask"
+            app:withTextInterval="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/separation" />
+
+        <me.xiaopan.switchbutton.SwitchButton
+            android:id="@+id/to_another"
+            style="@style/item"
+            android:text="@string/to_another"
+            android:textColor="@color/text_color_black"
+            android:textSize="19sp"
+            app:frameDrawable="@mipmap/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@mipmap/switch_state_mask"
+            app:withTextInterval="16dp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/separation" />
+
+        <me.xiaopan.switchbutton.SwitchButton
+            android:id="@+id/anon_data"
+            style="@style/item"
+            android:text="@string/anon_data"
+            android:textColor="@color/text_color_black"
+            android:textSize="19sp"
+            app:frameDrawable="@mipmap/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@mipmap/switch_state_mask"
+            app:withTextInterval="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

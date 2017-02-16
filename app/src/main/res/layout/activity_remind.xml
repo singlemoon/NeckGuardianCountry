@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_remind"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_remind"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.skyfishjy.library.RippleBackground
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="100dp"
+            app:rb_color="@color/white"
+            app:rb_duration="3000"
+            app:rb_radius="32dp"
+            app:rb_rippleAmount="3"
+            app:rb_scale="5.5">
+
+            <ImageView
+                android:id="@+id/centerImage"
+                android:layout_width="164dp"
+                android:layout_height="164dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@null"
+                android:src="@mipmap/relaex" />
+
+        </com.skyfishjy.library.RippleBackground>
+
+        <TextView
+            android:id="@+id/time_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:text="1:00"
+            android:textSize="36sp"
+            android:textColor="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/time_picker"
+            android:layout_marginTop="27dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="放松一下"
+                android:textSize="24sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="让脖子休息一会"
+                android:textSize="24sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

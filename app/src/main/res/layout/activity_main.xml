@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/themered_background_u" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/separation" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/bg_tab"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/tab_home_layout"
+            style="@style/myTabOption">
+
+            <ImageView
+                android:id="@+id/tab_home_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@mipmap/home_uncheck" />
+
+            <TextView
+                android:id="@+id/tab_home_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/first_page"
+                android:textColor="@color/text_color_92_gray"
+                android:textSize="8.8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_recreation_layout"
+            style="@style/myTabOption">
+
+            <ImageView
+                android:id="@+id/tab_recreation_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@mipmap/recreation_uncheck" />
+
+            <TextView
+                android:id="@+id/tab_recreation_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/recreation"
+                android:textColor="@color/text_color_92_gray"
+                android:textSize="8.8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_rank_layout"
+            style="@style/myTabOption">
+
+            <ImageView
+                android:id="@+id/tab_rank_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.85"
+                android:contentDescription="@null"
+                android:src="@mipmap/rank_uncheck" />
+
+            <TextView
+                android:id="@+id/tab_rank_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/rank"
+                android:textColor="@color/text_color_92_gray"
+                android:textSize="8.8sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_mine_layout"
+            style="@style/myTabOption">
+
+            <ImageView
+                android:id="@+id/tab_mine_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@mipmap/mine_uncheck" />
+
+            <TextView
+                android:id="@+id/tab_mine_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/mine"
+                android:textColor="@color/text_color_92_gray"
+                android:textSize="8.8sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

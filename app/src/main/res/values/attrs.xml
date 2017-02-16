@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RainbowProgressView">
+        <attr name="bgColor" />
+        <attr name="rpColorStart" format="color" />
+        <attr name="rpColorSecond" format="color" />
+        <attr name="rpColorThird" format="color" />
+        <attr name="rpColorEnd" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="percent" />
+        <attr name="startAngle" />
+    </declare-styleable>
+    <declare-styleable name="PxBlurringView">
+        <attr name="blurRadius" format="integer" />
+        <attr name="downsampleFactor" format="integer" />
+        <attr name="overlayColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyDesignCircle">
+        <attr name="radius" format="dimension" />
+        <attr name="ballAngle" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="RotatingBall">
+        <attr name="ball_angle" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="SlideSelectView">
+        <attr name="circleCount" format="integer"></attr>
+        <attr name="textSize" format="integer"></attr>
+    </declare-styleable>
+
+</resources>

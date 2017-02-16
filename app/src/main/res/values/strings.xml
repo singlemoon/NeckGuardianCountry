@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">脖士</string>
+
+    <string name="first_page">首页</string>
+    <string name="recreation">4D互动</string>
+    <string name="rank">排名</string>
+    <string name="mine">我的</string>
+    <string name="zero">0</string>
+
+    <string name="temp_title_text">标题测试</string>
+    <string name="exit_app">再按一次退出</string>
+    <string name="toast_text">XX占领了封面</string>
+
+    <!--底部Tab文字-->
+    <string name="title_home">首页</string>
+    <string name="title_recreation">4D互动</string>
+    <string name="title_rank">排行</string>
+    <string name="title_mine">我的</string>
+
+    <!--配对及校验的文字-->
+    <string name="pairing">点击进行配对</string>
+    <string name="searching">搜索中&#8230;</string>
+    <string name="confirm_boshi">确保它在附近，并且已经开启</string>
+    <string name="design_philosophy">用心保护您的脖子</string>
+    <string name="connect_boshi">连接脖士只能脖环</string>
+    <string name="skip">跳过</string>
+    <string name="next_step">下一步</string>
+    <string name="complete">完成</string>
+    <string name="connect_success">连接成功</string>
+    <string name="tip">当您打开这个程序时，自动同步数据</string>
+    <string name="make_sure">确定</string>
+    <string name="tip2_1">请正确佩戴脖士颈环</string>
+    <string name="tip2_2">以获得精确数值</string>
+    <string name="tip3_1">吊坠在前</string>
+    <string name="tip3_2">机芯在后</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="tip4_1">双手分持软带和吊坠一端</string>
+    <string name="tip4_2">磁力自动吸附</string>
+    <string name="tip5_1">轻轻转动脖子（约4圈）</string>
+    <string name="tip5_2"> 酸痛处慢慢通过，以免造成损伤！</string>
+    <string name="letter_b">B</string>
+    <string name="neck_assess">颈动评估</string>
+    <string name="result_1">歪头太久 颈肌僵硬</string>
+    <string name="advice_1_1">更准确、更科学的颈动监测结果</string>
+    <string name="advice_1_2"> 请持续佩戴脖士！</string>
+    <string name="share_to_qq">分享到QQ</string>
+
+    <!--引导界面的文字-->
+    <string name="perfect_monitor">完美监测</string>
+    <string name="whenever_move_quiet">无论动与静， 一切默默牢记</string>
+    <string name="post_remind">身姿提醒</string>
+    <string name="prevent_tired">防疲劳智能提醒， 巧妙有分寸</string>
+    <string name="interact_improve">互动改善</string>
+    <string name="interact_exercise">体感互动锻炼， 健康又有趣</string>
+    <string name="health_alarm">近况分析</string>
+    <string name="the_most_timely">智能分析颈椎数据，让您远离亚健康</string>
+
+    <!--登陆用-->
+    <string name="username">用户名 </string>
+    <string name="welcome_text">用芯守护你的脖颈</string>
+    <string name="please_login">点击这里登录</string>
+    <string name="login">登录</string>
+    <string name="exit_login">退出登陆</string>
+    <string name="login_phone"><u>手机登录</u></string>
+    <string name="login_ing">登录中…</string>
+    <string name="no_network">网络异常，请稍后再试</string>
+    <string name="system_error">系统异常，请稍后再试</string>
+    <string name="login_ban">您的账号已被冻结</string>
+    <string name="mobile_hint">输入你的手机号</string>
+    <string name="verification_code_hint">请输入您的验证码</string>
+    <string name="get_verification_code">获取验证码</string>
+
+    <!--4D互动用-->
+    <string name="neck_gym">健脖操</string>
+    <string name="user_num_neck">共有11人</string>
+    <string name="balance_master">平衡大师</string>
+    <string name="user_num_balance">共有9人</string>
+    <string name="neck_game">飞机大战</string>
+    <string name="user_num_game">共有76人</string>
+    <string name="add_model">添加模块</string>
+    <string name="game_history">4D互动记录</string>
+
+    <!--排名用的文字-->
+    <string name="rank_num">1</string>
+    <string name="rank_point">12356</string>
+    <string name="nick_name">这么长的名字塞得下吗</string>
+    <!--主页 分享用文字-->
+    <string name="share_to_where">脖士</string>
+    <string name="today">今天</string>
+    <string name="share_date">1月2日</string>
+    <string name="target">目标</string>
+    <string name="today_target">30000</string>
+    <string name="current_distance">25560</string>
+    <string name="neck_exercise_energy">颈动量</string>
+    <string name="boshi_isconnect">脖士已连接</string>
+    <string name="click_to_connect"><u>点此以连接脖士</u></string>
+    <string name="show_more">向上滑动以获得更多信息</string>
+    <string name="neck_exercise_angle">颈动度</string>
+    <string name="amount_of_exercise">运动量</string>
+    <string name="energy_consumption">能量消耗</string>
+    <string name="head_lower_time">低头时间</string>
+    <string name="left_lean_time">左倾时间</string>
+    <string name="right_lean_time">右倾时间</string>
+    <string name="unit_du">度</string>
+    <string name="unit_bu">步</string>
+    <string name="unit_ka">卡</string>
+    <string name="unit_fen">分</string>
+
+    <string name="loading">加载中…</string>
+    <string name="load">加载中…</string>
+
+    <!-- 设置中使用到的 -->
+    <string name="advice_hint">填写您的意见，我们将做得更好！</string>
+    <string name="submit">提交</string>
+    <string name="to_cloud">上传至云端</string>
+    <string name="to_another">向好友公开</string>
+    <string name="anon_data">发送匿名数据以改善产品</string>
+    <string name="shock">震动</string>
+    <string name="voice">语音</string>
+    <string name="bell">响铃</string>
+    <string name="choose_ring">选择铃声</string>
+    <string name="shock_bell">震动并响铃</string>
+    <string name="bell_name">bellname</string>
+    <string name="myblooth">连接设备</string>
+    <string name="info_setting">通知设置</string>
+    <string name="pri_setting">隐私设置</string>
+    <string name="net_setting">网络设置</string>
+    <string name="cache_setting">清除缓存</string>
+    <string name="battery">85%</string>
+    <string name="run_time">3天4小时5分钟</string>
+    <string name="run_of_time">预计可用7天1小时</string>
+    <string name="run_day">95</string>
+    <string name="current_electric">当前电量</string>
+    <string name="use_time">已用时长</string>
+    <string name="i_want_conn">我要测试</string>
+    <string name="break_connect">断开连接</string>
+
+    <!-- 健康中用 -->
+    <string name="run_time_day">天</string>
+    <string name="run_hour">1</string>
+    <string name="run_time_hour">时</string>
+    <string name="run_min">29</string>
+    <string name="run_time_min">分钟</string>
+    <string name="run_head">25185</string>
+    <string name="today_run">1314</string>
+    <string name="du">度</string>
+    <string name="walk_num">1033084</string>
+    <string name="today_walk">51904</string>
+    <string name="bu">步</string>
+    <string name="run_energy">1044378</string>
+    <string name="today_energy">52218</string>
+    <string name="ka">卡</string>
+    <string name="down_head">9.6</string>
+    <string name="today_down">0.5</string>
+    <string name="shi">小时</string>
+    <string name="always_body">习惯右倾</string>
+    <string name="right_bodys">54%</string>
+    <string name="left_bodys">36%</string>
+    <string name="step">30000(推荐)</string>
+    <string name="jz_time">10分钟(推荐)</string>
+    <string name="lmd">10秒(敏感)</string>
+    <string name="health_analyze">健康分析</string>
+    <string name="health_tip1_1">您的颈椎状态良好</string>
+    <string name="health_tip1_2">请继续保持！</string>
+    <string name="health_tip2_1">您的颈椎状态正常</string>
+    <string name="health_tip2_2">请继续努力！</string>
+    <string name="health_tip3_1">您的颈椎状态偏差</string>
+    <string name="health_tip3_2">请多多活动您的脖子！</string>
+
+    <!--关于我们-->
+    <string name="version">Version 1.1.0</string>
+    <string name="weibo">微博&#160;</string>
+    <string name="offical_website">&#160;官网&#160;</string>
+    <string name="bbs">&#160;论坛</string>
+    <string name="service_agreement">服务协议</string>
+    <string name="Copyright">Copyright©2016&#8211;2026&#160;701团队&#160;版权所有</string>
+
+    <!--dialog用-->
+    <string name="game_over">游戏结束</string>
+    <string name="game_rank_1">Excellent</string>
+    <string name="game_rank_2">Great</string>
+    <string name="game_rank_3">Good</string>
+    <string name="game_rank_4">Bad</string>
+    <string name="defen">您本次的得分为：</string>
+    <string name="game_point">95</string>
+    <string name="confirm">确定</string>
+    <string name="custom_target">自定义目标</string>
+    <string name="cancel_btn">取消</string>
+    <!-- 蓝牙设置-->
+    <string name="device">Device:</string>
+    <string name="no_device">&lt;Select a device&gt;</string>
+    <string name="select_device">Select a device</string>
+    <string name="status">Status</string>
+    <string name="llsWrite">LinkLossAlert</string>
+    <string name="iasWrite">ImmediateAlert</string>
+    <string name="scanning">Scanning for devices...</string>
+    <string name="no_ble_devices">No LE devices found.</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Not connected</string>
+    <string name="ready">Ready</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connect">connect</string>
+    <string name="unpair">unpair</string>
+    <string name="pair">pair</string>
+    <string name="RadioButton1">Alert level high</string>
+    <string name="RadioButton2">Alert level mid</string>
+    <string name="RadioButton3">Stop alerting</string>
+    <string name="SystemId">SystemId</string>
+    <string name="ModelNumber">ModelNumber</string>
+    <string name="SerialNumber">SerialNumber</string>
+    <string name="FirmwareRevision">FirmwareRevision</string>
+    <string name="HardwareRevision">HardwareRevision</string>
+    <string name="SoftwareRevision">SoftwareRevision</string>
+    <string name="ManufactureName">ManufactureName</string>
+    <string name="RegCertDataList">RegCertDataList</string>
+    <string name="ManufactureId">    ManufactureId</string>
+    <string name="BatteryLevel">    Battery Level</string>
+    <string name="OrgId">    OrganizationId</string>
+    <string name="Txpower">    Txpower Level</string>
+    <string name="Noupdate">    No Update</string>
+    <string name="ReadTxPower">ReadTxPower</string>
+    <string name="high_alert">HIGH Alert triggered!</string>
+    <string name="low_alert">LOW Alert triggered!</string>
+    <string name="writeTxnoti">TxNoti</string>
+    <string name="readRssi">Read Rssi Value</string>
+    <string name="Readdummy">D Read</string>
+    <string name="removeBond">Remove Bond</string>
+    <string name="paired">paired</string>
+    <string name="popup_title">退出</string>
+    <string name="popup_message">你确定要退出脖士吗</string>
+    <string name="popup_yes">确定</string>
+    <string name="popup_no">取消</string>
+    <string name="ble_not_supported">Bluetooth Low Energy not supported</string>
+    <string name="scan">Scan</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

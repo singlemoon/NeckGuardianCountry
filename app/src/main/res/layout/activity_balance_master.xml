@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar_back" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.17">
+
+        <!--<com.ogaclejapan.arclayout.ArcLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:background="@color/white"
+            app:arc_axisRadius="125dp"
+            app:arc_freeAngle="true"
+            app:arc_origin="bottom"
+            app:arc_radius="150dp"
+            app:arc_reverseAngle="true">
+
+            <ImageView
+                android:id="@+id/yoga_ball"
+                android:layout_width="10.5dp"
+                android:layout_height="10.5dp"
+                android:src="@mipmap/yoga_ball"
+                app:arc_angle="180" />
+        </com.ogaclejapan.arclayout.ArcLayout>-->
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:src="@mipmap/yoga_shadows" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/yoga_scale" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="27dp"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/img_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="50dp"
+                    android:src="@mipmap/yoga1_l" />
+
+                <ImageView
+                    android:id="@+id/img_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="50dp" />
+            </RelativeLayout>
+
+        <com.simo.utils.myView.RotatingBall
+            android:id="@+id/change_ball"
+            android:layout_marginTop="26dp"
+            android:layout_width="270dp"
+            android:layout_height="270dp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/gg" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="倒计时"
+            android:textColor="@color/text_color_67_gray"
+            android:textSize="14sp" />
+
+        <ProgressBar
+            android:id="@+id/count_down"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="240dp"
+            android:layout_height="12.5dp"
+            android:layout_marginLeft="12dp"
+            android:max="110"
+            android:progress="110"
+            android:progressDrawable="@drawable/progress_style" />
+
+    </LinearLayout>
+</LinearLayout>

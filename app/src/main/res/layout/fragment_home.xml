@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_home_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/themered_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/progress_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true">
+
+                <requestFocus />
+            </android.support.v4.view.ViewPager>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white_e5"
+            android:clickable="true"
+            android:orientation="horizontal">
+            <!--
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:contentDescription="@null"
+                            android:paddingLeft="17.5dp"
+                            android:paddingTop="10dp"
+                            android:src="@mipmap/calendar" />
+            -->
+
+            <TextView
+                android:id="@+id/date_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/today"
+                android:textColor="@color/text_color_black"
+                android:textSize="24sp" />
+
+
+            <ImageView
+                android:id="@+id/home_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:paddingRight="13.5dp"
+                android:paddingTop="10dp"
+                android:src="@mipmap/home_share" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_cal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white_e5">
+
+        </android.support.v7.widget.RecyclerView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignBottom="@+id/recycler_cal"
+            android:background="@color/gray_b9"/>
+    </RelativeLayout>
+
+</LinearLayout>

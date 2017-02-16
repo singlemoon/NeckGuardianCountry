@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--背景-->
+    <color name="themered_background">#FFF8F8F8</color>
+    <!--分隔线-->
+    <color name="separation">#FFe6e6e6</color>
+    <color name="separation_mine">#FFCBCBCB</color>
+    <!--菜单栏背景色-->
+    <color name="bg_tab">#FFFFFFFF</color>
+    <!--标题栏的颜色-->
+    <color name="bg_title">#FF27B4ED</color>
+    <color name="bg_title_dark">#FF0288D1</color>
+    <!--排行榜每个子栏的背景色-->
+    <color name="bg_rank">#FFF1F1F1</color>
+    <!--登陆界面背景-->
+    <color name="bg_login">#77FFFFFF</color>
+    <!-- Android L 白底按下颜色 -->
+    <color name="press_gray">#B8B8B8</color>
+    <!--娱乐的背景色-->
+    <color name="themered_background_u">#ffededed</color>
+    <!--分享箭头的背景色-->
+    <color name="bg_share_arrows">#99000000</color>
+    <!--我的 背景色-->    <color name="mine_bg">#FFF0F1F4</color>
+
+    <!--被选中的日期的背景色-->
+    <color name="item_calendar">#FF2FA9FF</color>
+    <color name="white_e5">#E5FFFFFF</color>
+
+    <color name="bg_home">#FFF7F7F7</color>
+    <color name="bg_remind">#000000</color>
+
+    <!-- 常用颜色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF6600</color>
+    <color name="whitegrey">#FFF2F2F2</color>
+    <color name="ggg">#FFEFEFEF</color>
+    <color name="gg">#FFD8D8D8</color>
+    <color name="myred">#FFFF4747</color>
+    <color name="gray_b9">#FFB9B9B9</color>
+
+    <!--文字的颜色-->
+    <color name="mine_text">#FF000000</color>
+    <color name="text_color_black">#FF000000</color>
+    <color name="text_color_2">#FF5E5E5E</color>
+    <color name="text_color_67_gray">#FF676767</color>
+    <color name="text_color_92_gray">#FF929292</color>
+    <color name="text_color_gray">#FF999999</color>
+    <color name="text_color_tab">#FF007AFF</color>
+    <color name="rank_top_three">#FFF5A623</color>
+    <color name="rank_others">#FF7ED321</color>
+    <color name="text_color_4">#FF6C6C6C</color>
+    <color name="text_color_5">#FF575757</color>
+    <color name="text_color_6">#FFBDBDBD</color>
+    <color name="text_color_7">#FFB9B9B9</color>
+    <color name="text_color_f1">#FFF1F1F1</color>
+    <color name="text_color_c2_gray">#FFC2C2C2</color>
+    <color name="text_color_ab_gray">#FFABABAB</color>
+    <color name="text_color_blue_2f">#FF2FA9FF</color>
+    <color name="text_color_a1_gray">#FFA1A1A1</color>
+    <color name="text_color_gray_3f">#FF3F3F3F</color>
+    <color name="touming">#00000000</color>
+    <color name="text_color_gray_43">#FF434343</color>
+
+
+    <color name="card_outside">#80000000</color>
+
+    <color name="gradient_color_start">#BF000000</color>
+    <color name="gradient_color_end">#00000000</color>
+    <color name="dash_line_color">#FF979797</color>
+    <color name="progress_stroke">#FFDBD9D9</color>
+    <!--按下时的颜色-->
+    <color name="color_pressed">#FFF5F5F5</color>
+
+    <color name="yancy_pink50">#fce4ec</color>
+    <color name="yancy_pink100">#f8bbd0</color>
+    <color name="yancy_pink200">#f48fb1</color>
+    <color name="yancy_pink300">#f06292</color>
+    <color name="yancy_pink400">#ec407a</color>
+    <color name="yancy_pink500">#e91e63</color>
+    <color name="yancy_pink600">#d81b60</color>
+    <color name="yancy_pink700">#c2185b</color>
+    <color name="yancy_pink800">#ad1457</color>
+    <color name="yancy_pink900">#880e4f</color>
+    <color name="yancy_pinka100">#ff80ab</color>
+    <color name="yancy_pinka200">#ff4081</color>
+    <color name="yancy_pinka400">#f50057</color>
+    <color name="yancy_pinka700">#c51162</color>
+</resources>

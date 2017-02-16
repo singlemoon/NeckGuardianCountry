@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="33.5dp"
+        android:text="@string/skip"
+        android:textColor="@color/text_color_67_gray"
+        android:textSize="18sp"
+        android:clickable="true"
+        android:onClick="doClick"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp">
+
+        <com.simo.utils.myView.MyDesignCircle
+            android:id="@+id/test_circle"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_centerInParent="true"
+            android:background="@color/white"
+            my_view:radius="110dp"
+            my_view:ballAngle="360"/>
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ornament"
+            android:contentDescription="@null"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/text_color_67_gray"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text=""
+                android:textColor="@color/text_color_67_gray"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/changeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:text="缓慢地左右扭动脖子进行校验"
+            android:textColor="@color/text_color_67_gray"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text=""
+            android:textColor="@color/text_color_67_gray"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start_test"
+        android:layout_width="153.5dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/bg_btn_in_adjusting"
+        android:text="开始校验"
+        android:textColor="@color/text_color_67_gray"
+        android:textSize="18sp"/>
+
+</LinearLayout>

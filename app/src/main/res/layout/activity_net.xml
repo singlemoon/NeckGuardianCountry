@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mine_bg"
+    android:orientation="vertical"
+    tools:context="com.neckguardian.activity.Mine_Settings.NetActivity">
+
+    <include layout="@layout/title_bar_back" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/separation" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="29dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/only_wifi"
+            style="@style/nullOption"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="仅使用WIFI   "
+                android:textSize="19sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/wifi"
+                    style="@style/CustomRadioButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/separation" />
+
+        <LinearLayout
+            android:id="@+id/all_net"
+            style="@style/nullOption"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="使用普通网络和WIFI"
+                android:textSize="19sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/net"
+                    style="@style/CustomRadioButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

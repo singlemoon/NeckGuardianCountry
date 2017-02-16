@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="20dp">
+
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="2dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="71dp"
+        android:background="@color/text_color_blue_2f" />
+
+    <TextView
+        android:id="@+id/show_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/time_line_oval"
+        android:layout_below="@+id/view_1"
+        android:layout_marginRight="21dp"
+        android:text="12.29"
+        android:textColor="@color/text_color_black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/time_line_oval"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/view_1"
+        android:layout_marginLeft="65dp"
+        android:src="@mipmap/time_line_oval" />
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="2dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/time_line_oval"
+        android:layout_marginLeft="71dp"
+        android:background="@color/text_color_blue_2f" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/time_line_oval"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/message"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="19dp"
+        android:paddingRight="10dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/game_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下午1:57"
+            android:textColor="@color/text_color_67_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/game_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="平衡大师"
+            android:textColor="@color/text_color_67_gray"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/game_use_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="游戏时间23s"
+                android:textColor="@color/text_color_67_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/completeness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="完成度34%"
+                android:textColor="@color/text_color_67_gray"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

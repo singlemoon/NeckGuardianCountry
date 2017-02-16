@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mine_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="131.5dp"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="29.5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="14.5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:text="颈动量设定目标"
+                    android:textColor="@color/text_color_67_gray"
+                    android:textSize="18sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_marginRight="30.5dp">
+                    <TextView
+                        android:id="@+id/targetValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/step"
+                        android:textColor="@color/text_color_blue_2f"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/separation_mine" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginBottom="18dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="4dp"
+                    android:gravity="bottom">
+
+                    <TextView
+                        android:id="@+id/jdl1"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="最低"/>
+                    <TextView
+                        android:id="@+id/jdl2"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="适中"/>
+                    <TextView
+                        android:id="@+id/jdl3"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="推荐"/>
+                    <TextView
+                        android:id="@+id/jdl4"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="活跃"/>
+                    <TextView
+                        android:id="@+id/jdl5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="自定义"/>
+                </LinearLayout>
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/jdl_seekbar"
+                    android:layout_width="322dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    app:dsb_indicatorPopupEnabled="false"
+                    app:dsb_thumbSize = "35sp"
+                    app:dsb_min="1"
+                    app:dsb_max="5"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 僵坐 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="131.5dp"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="29.5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="14.5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:text="僵坐提醒间隔"
+                    android:textColor="@color/text_color_67_gray"
+                    android:textSize="18sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_marginRight="30.5dp">
+                    <TextView
+                        android:id="@+id/jz_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jz_time"
+                        android:textColor="@color/text_color_blue_2f"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/separation_mine" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginBottom="18dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="4dp"
+                    android:gravity="bottom">
+                    <TextView
+                        android:id="@+id/jz1"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="最长"/>
+                    <TextView
+                        android:id="@+id/jz2"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="适中"/>
+                    <TextView
+                        android:id="@+id/jz3"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="推荐"/>
+                    <TextView
+                        android:id="@+id/jz4"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="频繁"/>
+                    <TextView
+                        android:id="@+id/jz5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="自定义"/>
+                </LinearLayout>
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/jz_seekbar"
+                    android:layout_width="322dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    app:dsb_indicatorPopupEnabled="false"
+                    app:dsb_thumbSize = "35sp"
+                    app:dsb_min="1"
+                    app:dsb_max="5"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 灵敏度 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="131.5dp"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="29.5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="14.5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:text="异常姿态灵敏度"
+                    android:textColor="@color/text_color_67_gray"
+                    android:textSize="18sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_marginRight="30.5dp">
+                    <TextView
+                        android:id="@+id/wrongLmd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lmd"
+                        android:textColor="@color/text_color_blue_2f"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/separation_mine" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginBottom="18dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="4dp"
+                    android:gravity="bottom">
+                    <TextView
+                        android:id="@+id/lmd1"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="迟钝"/>
+                    <TextView
+                        android:id="@+id/lmd2"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="适中"/>
+                    <TextView
+                        android:id="@+id/lmd3"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="推荐"/>
+                    <TextView
+                        android:id="@+id/lmd4"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="敏感"/>
+                    <TextView
+                        android:id="@+id/lmd5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color_67_gray"
+                        android:textSize="12sp"
+                        android:text="自定义"/>
+                </LinearLayout>
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/lmd_seekbar"
+                    android:layout_width="322dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    app:dsb_indicatorPopupEnabled="false"
+                    app:dsb_thumbSize = "35sp"
+                    app:dsb_min="1"
+                    app:dsb_max="5"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

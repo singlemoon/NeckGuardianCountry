@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/pager_img"
+        android:layout_width="123dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="148dp"
+        android:contentDescription="@null"
+        android:src="@mipmap/guidance_1" />
+
+    <TextView
+        android:id="@+id/guidance_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:text="@string/perfect_monitor"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/guidance_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:alpha="0.6"
+        android:text="@string/whenever_move_quiet"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

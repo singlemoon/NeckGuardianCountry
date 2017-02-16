@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/head_img_game"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="18dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/head_img_meizi"
+            app:riv_corner_radius="30dip"
+            app:riv_mutate_background="true"
+            app:riv_oval="true" />
+
+        <TextView
+            android:id="@+id/nick_name_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:maxLength="8"
+            android:text="Fiona"
+            android:textColor="@color/text_color_67_gray"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="18sp"
+            android:gravity="end"
+            android:text="5小时4分钟"
+            android:textColor="@color/text_color_67_gray"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/dash_line_color" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/time_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

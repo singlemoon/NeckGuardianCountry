@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_rank_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/refresh_rank_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_rank"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <LinearLayout
+            android:id="@+id/occupy_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/shadows" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_hold"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/head_img"
+                    app:riv_border_color="#333333"
+                    app:riv_corner_radius="30dip"
+                    app:riv_mutate_background="true"
+                    app:riv_oval="true"
+                    app:riv_tile_mode="repeat" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text_hold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:shadowColor="@color/black"
+                android:shadowRadius="2"
+                android:text="@string/toast_text"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_marginTop="310dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:background="@color/text_color_f1"
+                android:orientation="horizontal"
+                android:paddingBottom="11dp"
+                android:paddingTop="11dp">
+
+
+                <RelativeLayout
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="47dp"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/rank_pic"
+                        android:layout_width="47dp"
+                        android:layout_height="47dp"
+                        android:contentDescription="@null"
+                        android:src="@mipmap/head_img"
+                        app:riv_oval="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rank_nick_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLength="8"
+                        android:text="@string/nick_name"
+                        android:textColor="@color/text_color_gray_3f"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/ranking"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="第1名"
+                        android:textColor="@color/text_color_a1_gray"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center">
+
+                    <TextView
+                        android:id="@+id/rank_neck_max"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rank_point"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/rank_click_area"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/rank_counts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/walk_num"
+                            android:textColor="@color/text_color_67_gray"
+                            android:textSize="13sp" />
+
+                        <RadioButton
+                            android:id="@+id/rank_heart"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:background="@drawable/favour_selector"
+                            android:button="@null"
+                            android:clickable="false" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#FFDDDDDD" />
+        </LinearLayout>
+
+        <include layout="@layout/title_bar_share" />
+
+    </RelativeLayout>
+
+</LinearLayout>

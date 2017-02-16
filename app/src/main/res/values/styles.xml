@@ -1,0 +1,106 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="myLaunch" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@mipmap/launcher_frame</item>
+    </style>
+
+    <style name="myTheme" parent="AppTheme">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="translation_z">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <!-- 主页面 tab -->
+    <style name="myTabOption">
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/tab_option_selecter</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="setOption">
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/option_selecter</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+    </style>
+
+    <style name="item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:minHeight">29.5dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="mineOption">
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/option_selecter</item>
+    </style>
+
+    <style name="nullOption">
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/option_selecter</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+    </style>
+
+    <style name="MyDialogStyle" parent="Theme.AppCompat.Dialog.MinWidth">
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowContentOverlay">@null</item><!--内容覆盖 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog
+        </item><!-- 窗口样式Dialog -->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+
+    <style name="CustomRadioButton">
+        <item name="android:background">@drawable/custom_radio_btn</item>
+    </style>
+
+    <style name="DialogLight" parent="@android:style/Theme.Dialog">
+
+        <item name="android:windowBackground">@color/whitegrey</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--使activity透明-->
+    <style name="translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/bg_remind</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_pairing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/bg_pairing" />
+
+        <com.simo.utils.myView.WaterWaveView
+            android:id="@+id/water_wave"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@mipmap/boshi" />
+
+
+            <TextView
+                android:id="@+id/skip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp"
+                android:paddingRight="18dp"
+                android:layout_alignParentRight="true"
+                android:text="@string/skip"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:clickable="true"
+                android:onClick="onClick"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/searching"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/searching"
+            android:textColor="@color/text_color_black"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:onClick="onClick"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/confirm_boshi"
+            android:textColor="@color/text_color_ab_gray"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/design_philosophy"
+            android:textColor="@color/text_color_blue_2f"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

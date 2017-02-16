@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/sweep_layout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@mipmap/bg_pairing" />
+
+        <ImageView
+            android:id="@+id/sweep_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@mipmap/sweep_light" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@mipmap/boshi" />
+
+        <!--<TextView
+            android:id="@+id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="33dp"
+            android:clickable="true"
+            android:onClick="doClick"
+            android:paddingRight="18dp"
+            android:text="@string/skip"
+            android:textColor="@color/white"
+            android:textSize="18sp" />-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/connect_success"
+            android:textColor="@color/text_color_black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/make_sure"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/isclicked"
+            android:text="@string/make_sure"
+            android:textColor="@color/white"
+            android:textSize="21sp" />
+    </LinearLayout>
+
+</LinearLayout>

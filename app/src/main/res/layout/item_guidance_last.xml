@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/last_pager_img"
+        android:layout_width="123dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@null"
+        android:src="@mipmap/guidance_5" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp">
+
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="14dp"
+            android:contentDescription="@null"
+            android:src="@drawable/white_line" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:contentDescription="@null"
+            android:src="@drawable/white_line" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@mipmap/use_heart_protect" />
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="153dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/white_line"
+        android:text="开始使用"
+        android:textColor="@color/text_color_blue_2f"
+        android:textSize="18sp" />
+
+</LinearLayout>
